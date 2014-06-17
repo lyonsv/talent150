@@ -1,0 +1,17 @@
+button{
+  -webkit-transition: ease 0.3s;
+  @include pad(1em 2em);
+  background:none;
+  color:$light-gray;
+  border:$light-gray 2px solid;
+  border-radius:3px;
+  text-transform:uppercase
+}
+
+
+button:hover{
+  -webkit-transition: ease 0.3s;
+  -webkit-transform:scale(1.03);
+  color:#FF0707;
+  border:#FF0707 2px solid;
+}

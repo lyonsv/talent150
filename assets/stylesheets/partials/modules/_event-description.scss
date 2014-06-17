@@ -1,0 +1,59 @@
+.event-description {
+  @include span-columns(8);
+  hgroup{
+    @include pad(2em 0);
+  }
+  h1{
+    text-align:center;
+    font-size:3em;
+    padding-bottom:0.5em;
+  }
+  img{
+    @include pad(2em 0);
+    display:block;
+    width:100%;
+    margin: 0 auto;
+  }
+  h2{
+    font-weight:300;
+    font-size:1.5em;
+  }
+  p{
+    @include pad(1em 0);
+  }
+}
+
+.right-column{
+  @include span-columns(4);
+  background:#2F2F30;
+  color:white;
+  @include pad(1em);
+  img{
+    @include pad(4em 0);
+    background:white;
+    border-radius:3px;
+    width:75%;
+    margin:10% auto;
+    display:block;
+  }
+  h2{
+    text-align:center;
+  }
+  p{
+    margin:10% 0;
+  }
+  ul{
+    padding:0;
+    border:1px rgb(243, 235, 235) solid;
+    background:white;
+  }
+  li{
+    @include pad(1em 1em);
+    color:$dark-gray;
+    list-style-type:none;
+    border-bottom:1px rgb(243, 235, 235) solid;
+  }
+  li:last-child{
+    border-bottom:none;
+  }
+}

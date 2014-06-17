@@ -1,0 +1,41 @@
+header{
+  @include pad(10% 2em);
+  text-align: center;
+  background:linear-gradient(rgba(156, 2, 2, 0.55), rgba(0, 0, 0, 0.31)), url("../../assets/images/docklands-dublin.jpg");
+  background-size:cover;
+}
+
+section{
+  background:$dark-gray;
+  @include pad(2em);
+}
+
+footer{
+
+}
+
+.l-inner-container{
+//  @include fill-parent;
+  @include span-columns(12);
+ @include pad(1em 0);
+  img{
+    display:block;
+  }
+}
+
+.notify-container{
+  @include span-columns(3 of 12);
+  @include shift(5);
+}
+
+
+
+.l-header{
+  @include span-columns(8 of 12);
+  @include pad();
+   @include omega();
+}
+
+.m-ticket-container{
+  @include pad(2em);
+}
