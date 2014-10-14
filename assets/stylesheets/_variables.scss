@@ -14,7 +14,7 @@ $base-border-radius: em(3);
 
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
-
+$talent150-blue: #0078be;
 $blue: #85b4cc;
 $dark-gray: #5f6a7d;
 $medium-gray: #999;
@@ -34,12 +34,14 @@ $medium-gray:#29333a;
 $dark-gray:#1a2026;
 
 $accent: $white;
+$h2header-color: lighten($medium-gray, 65%);
+
 // Body Color
 $base-body-color: $light-gray;
 
 //  Font Colors
 $base-font-color: $light-gray;
-$base-accent-color: $blue;
+$base-accent-color: $talent150-blue;
 
 //  Text Link Colors
 $base-link-color: $base-accent-color;
@@ -53,6 +55,10 @@ $error-color: $light-red;
 $notice-color: $light-yellow;
 $success-color: $light-green;
 
+// Button Colors
+
+$button-hover-color: $talent150-blue;
+$button-base-color: $talent150-blue;
 // Layout Colors
 ///////////////////////////////////////////////////////////////////////////////
 

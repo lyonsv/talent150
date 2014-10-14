@@ -1,8 +1,17 @@
 header{
   @include pad(10% 2em);
   text-align: center;
-  background:linear-gradient(rgba(156, 2, 2, 0.55), rgba(0, 0, 0, 0.31)), url("../../assets/images/docklands-dublin.jpg");
+  background:linear-gradient(rgba(0, 120, 190, 0.56), rgba(0, 0, 0, 0.31)), url("../../assets/images/docklands-dublin.jpg");
   background-size:cover;
+  img{
+  max-width:400px;
+  }
+  h2{
+    font-size:1.5em;
+    line-height:0;
+    color:$h2header-color;
+    margin-bottom:2em;
+  }
 }
 
 section{

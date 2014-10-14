@@ -12,6 +12,6 @@ button{
 button:hover{
   -webkit-transition: ease 0.3s;
   -webkit-transform:scale(1.03);
-  color:#FF0707;
-  border:#FF0707 2px solid;
+  color:$button-hover-color;
+  border:$button-hover-color 2px solid;
 }

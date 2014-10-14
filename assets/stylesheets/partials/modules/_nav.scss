@@ -3,9 +3,9 @@ nav{
   background:$white;
   button{
     font-size:0.8em;
-    border:$red 2px solid;
+    border:$button-base-color 2px solid;
     padding:0.5em 2em;
-    color:$red;
+    color:$button-base-color;
     float:right;
     margin:20px;
   }
