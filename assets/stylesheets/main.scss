@@ -12,3 +12,10 @@
 .container {
   @include outer-container;
 }
+
+.m-bottom-image{
+
+    margin-bottom:4em;
+    max-width:300px;
+
+}

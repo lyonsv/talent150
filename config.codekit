@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/images\/chq-circle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170534,
+		"inputAbbreviatedPath": "\/assets\/images\/chq-circle.png",
+		"outputAbbreviatedPath": "\/assets\/images\/chq-circle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/default_cover_image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -249,6 +260,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/assets\/stylesheets\/partials\/css\/_event-description.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/stylesheets\/partials\/css\/_event-description.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/stylesheets\/partials\/modules\/_buttons.scss": {
 		"createSourceMap": 0,
@@ -1418,6 +1438,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/google44b318f23ba00783.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/google44b318f23ba00783.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.haml": {
 		"escapeHTMLCharacters": 0,
